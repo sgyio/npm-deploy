@@ -1,0 +1,25 @@
+{
+  "name": "@sgy/hello-world",
+  "version": "0.1.4",
+  "description": "npm package deployment with 2FA enabled.",
+  "main": "index.js",
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "jest test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sgyio/npm-deploy.git"
+  },
+  "author": "sgariepy@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sgyio/npm-deploy/issues"
+  },
+  "homepage": "https://github.com/sgyio/npm-deploy#readme",
+  "devDependencies": {
+    "jest": "^23.5.0"
+  }
+}
